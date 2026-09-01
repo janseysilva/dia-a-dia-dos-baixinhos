@@ -1,0 +1,58 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d web-server --web-port 8765 --web-hostname 127.0.0.1
+
+## exception
+
+DartDevelopmentServiceException: DartDevelopmentServiceException: WebSocketChannelException: WebSocketException: Connection to 'http://127.0.0.1:53500/6Z_ev0fns3g=/ws#' was not upgraded to websocket
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.44.9, on Microsoft Windows [versÆo 10.0.19045.6466], locale pt-BR) [1.312ms]
+    • Flutter version 3.44.9 on channel stable at C:\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 6b182d2c75 (4 weeks ago), 2026-08-05 10:04:07 -0700
+    • Engine revision 5a2a6a42cc
+    • Dart version 3.12.2
+    • DevTools version 2.57.0
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, enable-swift-package-manager, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
+
+[✓] Windows Version (10 Pro 64 bits, 22H2, 2009) [1.835ms]
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [8,1s]
+    • Android SDK at C:\Android\sdk
+    • Emulator version unknown
+    • Platform android-36, build-tools 36.0.0
+    • ANDROID_HOME = C:\Android\sdk
+    • Java binary at: C:\jdk-download\extracted\jdk-17.0.20+8\bin\java
+      This JDK is specified by the JAVA_HOME environment variable.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment Temurin-17.0.20+8 (build 17.0.20+8)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web [252ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✗] Visual Studio - develop Windows apps [252ms]
+    ✗ Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[✓] Connected device (4 available) [542ms]
+    • Windows (desktop) • windows    • windows-x64    • Microsoft Windows [versÆo 10.0.19045.6466]
+    • Web Server (web)  • web-server • web-javascript • Flutter Tools
+    • Chrome (web)      • chrome     • web-javascript • Google Chrome 152.0.7977.65
+    • Edge (web)        • edge       • web-javascript • Microsoft Edge 148.0.3967.83
+
+[✓] Network resources [15,8s]
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```
